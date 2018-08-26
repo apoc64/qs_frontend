@@ -306,7 +306,7 @@
 
 	'use strict';
 
-	var baseURL = `https://steve-qs-go.herokuapp.com/`
+	var baseURL = `https://steve-qs-go.herokuapp.com`
 
 	var foodsAPIFetch = function foodsAPIFetch(id, method, body) {
 	  return fetch(baseURL + '/api/v1/foods/' + id, {
@@ -411,7 +411,7 @@
 
 	var foodsRequests = __webpack_require__(1);
 
-	var baseURL = `https://steve-qs-go.herokuapp.com/`
+	var baseURL = `https://steve-qs-go.herokuapp.com`
 
 	var mealsAPIFetch = function mealsAPIFetch(id, method, extension) {
 	  return fetch(baseURL + '/api/v1/meals/' + id + extension, {
